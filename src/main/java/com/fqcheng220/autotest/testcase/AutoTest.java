@@ -21,7 +21,7 @@ public abstract class AutoTest {
     void launchSelendroid(String appPath) {
         //Start selendroid-standalone during test
         SelendroidConfiguration config = new SelendroidConfiguration();
-        config.setSelendroidServerPort(10000);
+        config.setSelendroidServerPort(10001);
         config.setServerStartRetries(0);
 
 // Add the selendroid-test-app to the standalone server
